@@ -102,13 +102,13 @@ const Index = () => {
                   margin: "10px",
                 }}
               >
-                <div style={{ margin: "10px" }}>
+                <div style={{ margin: "10px", width: "100%" }}>
                   <h2 style={{ textAlign: "center" }}>{index + 1}</h2>
                   Title
                   <p>{list.split("|")[0]}</p>
                   Content
                   <p>{list.split("|")[1]}</p>
-                  <div>
+                  <div style={{ width: "100%", textAlign: "center" }}>
                     <Button onClick={() => updateItemOpen(index)}>
                       Update
                     </Button>
